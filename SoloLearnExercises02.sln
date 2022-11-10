@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-MaximumAndMinimum", "10-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-PasswordRules", "11-PasswordRules\11-PasswordRules.csproj", "{D88676A7-6200-444E-AEBC-4F4DF79B5E7D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-Words", "12-Words\12-Words.csproj", "{0EDAEC1A-8F31-4E97-AF46-2463C7EBC36D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{D88676A7-6200-444E-AEBC-4F4DF79B5E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D88676A7-6200-444E-AEBC-4F4DF79B5E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D88676A7-6200-444E-AEBC-4F4DF79B5E7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EDAEC1A-8F31-4E97-AF46-2463C7EBC36D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EDAEC1A-8F31-4E97-AF46-2463C7EBC36D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EDAEC1A-8F31-4E97-AF46-2463C7EBC36D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EDAEC1A-8F31-4E97-AF46-2463C7EBC36D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
