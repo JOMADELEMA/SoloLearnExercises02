@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-SolveThePuzzle", "06-Sol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-OnlyTheEvens", "07-OnlyTheEvens\07-OnlyTheEvens.csproj", "{79131ECF-9687-453F-8A3A-74A9A2D4DFAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-ArrayToTable", "08-ArrayToTable\08-ArrayToTable.csproj", "{4DD1502D-2A2E-4060-A400-FEB8D60130A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{79131ECF-9687-453F-8A3A-74A9A2D4DFAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79131ECF-9687-453F-8A3A-74A9A2D4DFAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79131ECF-9687-453F-8A3A-74A9A2D4DFAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DD1502D-2A2E-4060-A400-FEB8D60130A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DD1502D-2A2E-4060-A400-FEB8D60130A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DD1502D-2A2E-4060-A400-FEB8D60130A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DD1502D-2A2E-4060-A400-FEB8D60130A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
