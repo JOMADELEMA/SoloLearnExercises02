@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-CalculatingWins", "02-Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-CreatingAProject", "03-CreatingAProject\03-CreatingAProject.csproj", "{5F76E66D-6F48-4C88-8EA2-D9438255BCB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-CardNumbers", "04-CardNumbers\04-CardNumbers.csproj", "{FD1FA9A8-BFCF-4920-95FA-71DB5D59C50C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5F76E66D-6F48-4C88-8EA2-D9438255BCB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F76E66D-6F48-4C88-8EA2-D9438255BCB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F76E66D-6F48-4C88-8EA2-D9438255BCB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD1FA9A8-BFCF-4920-95FA-71DB5D59C50C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1FA9A8-BFCF-4920-95FA-71DB5D59C50C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1FA9A8-BFCF-4920-95FA-71DB5D59C50C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1FA9A8-BFCF-4920-95FA-71DB5D59C50C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
