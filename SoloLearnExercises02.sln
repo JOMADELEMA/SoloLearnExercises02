@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-OnlyTheEvens", "07-OnlyT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-ArrayToTable", "08-ArrayToTable\08-ArrayToTable.csproj", "{4DD1502D-2A2E-4060-A400-FEB8D60130A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-QualifiyingForTheOlympics", "09-QualifiyingForTheOlympics\09-QualifiyingForTheOlympics.csproj", "{AFD74AC5-DB93-43A2-ACBB-FC32C864E377}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{4DD1502D-2A2E-4060-A400-FEB8D60130A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DD1502D-2A2E-4060-A400-FEB8D60130A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DD1502D-2A2E-4060-A400-FEB8D60130A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD74AC5-DB93-43A2-ACBB-FC32C864E377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD74AC5-DB93-43A2-ACBB-FC32C864E377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD74AC5-DB93-43A2-ACBB-FC32C864E377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD74AC5-DB93-43A2-ACBB-FC32C864E377}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
