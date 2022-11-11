@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-Words", "12-Words\12-Wor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-WhoWon", "13-WhoWon\13-WhoWon.csproj", "{A09BB3E0-5EC6-4158-A2A3-A0C84B48E630}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-GrowYourBusiness", "14-GrowYourBusiness\14-GrowYourBusiness.csproj", "{BE2DEE32-6C8E-411D-A5B4-C6881396C7CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{A09BB3E0-5EC6-4158-A2A3-A0C84B48E630}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A09BB3E0-5EC6-4158-A2A3-A0C84B48E630}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A09BB3E0-5EC6-4158-A2A3-A0C84B48E630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE2DEE32-6C8E-411D-A5B4-C6881396C7CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE2DEE32-6C8E-411D-A5B4-C6881396C7CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE2DEE32-6C8E-411D-A5B4-C6881396C7CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE2DEE32-6C8E-411D-A5B4-C6881396C7CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
