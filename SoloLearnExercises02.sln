@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17-MusicSelector", "17-Musi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18-TeamWorkMakesTheDreamWork", "18-TeamWorkMakesTheDreamWork\18-TeamWorkMakesTheDreamWork.csproj", "{81D2F493-3048-4460-9DAB-88A80C3A866A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19-Dance", "19-Dance\19-Dance.csproj", "{D65583E1-3DC8-4527-AD0D-517B41EE4600}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{81D2F493-3048-4460-9DAB-88A80C3A866A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81D2F493-3048-4460-9DAB-88A80C3A866A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81D2F493-3048-4460-9DAB-88A80C3A866A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D65583E1-3DC8-4527-AD0D-517B41EE4600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65583E1-3DC8-4527-AD0D-517B41EE4600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65583E1-3DC8-4527-AD0D-517B41EE4600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65583E1-3DC8-4527-AD0D-517B41EE4600}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
