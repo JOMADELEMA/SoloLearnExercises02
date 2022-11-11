@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15-ArraySorting", "15-Array
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16-AllAboutThis", "16-AllAboutThis\16-AllAboutThis.csproj", "{DB5E3E35-BA00-415C-B9A7-B728068491C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17-MusicSelector", "17-MusicSelector\17-MusicSelector.csproj", "{41304B13-4CAB-45CD-B2AA-269302A3EC87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{DB5E3E35-BA00-415C-B9A7-B728068491C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB5E3E35-BA00-415C-B9A7-B728068491C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB5E3E35-BA00-415C-B9A7-B728068491C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41304B13-4CAB-45CD-B2AA-269302A3EC87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41304B13-4CAB-45CD-B2AA-269302A3EC87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41304B13-4CAB-45CD-B2AA-269302A3EC87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41304B13-4CAB-45CD-B2AA-269302A3EC87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
