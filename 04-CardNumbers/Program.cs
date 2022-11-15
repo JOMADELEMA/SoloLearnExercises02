@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _04_CardNumbers
 {
@@ -23,11 +19,11 @@ namespace _04_CardNumbers
 
         class Card
         {
-            private string accountNum = "0011592048120";
+            private string _accountNum = "0011592048120";
 
             public string AccountNum
             {
-                get { return accountNum; }
+                get { return _accountNum; }
             }
         }
     }

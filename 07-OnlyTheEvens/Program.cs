@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _07_OnlyTheEvens
 {
@@ -36,16 +32,13 @@ namespace _07_OnlyTheEvens
             }
 
             int sum = 0;
-            foreach(var number in numbers)
+            foreach (var number in numbers)
             {
                 if (number % 2 == 0)
-                {
                     sum += number;
-                }
             }
 
             Console.WriteLine(sum);
-
         }
     }
 }

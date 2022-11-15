@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _15_ArraySorting
 {
@@ -33,17 +29,13 @@ namespace _15_ArraySorting
             int count = Convert.ToInt32(Console.ReadLine());
             int[] numbers = new int[count];
 
-            for(int i=0; i < count; i++)
-            {
+            for (int i = 0; i < count; i++)
                 numbers[i] = Convert.ToInt32(Console.ReadLine());
-            }
 
             Array.Sort(numbers);
 
-            foreach(var number in numbers)
-            {
+            foreach (var number in numbers)
                 Console.WriteLine(number);
-            }
         }
     }
 }

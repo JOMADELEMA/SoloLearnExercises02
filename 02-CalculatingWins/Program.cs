@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Media;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _02_CalculatingWins
 {
@@ -38,7 +33,6 @@ namespace _02_CalculatingWins
             player1.Wins = wins;
 
             player1.GetWinRate();
-            
         }
 
         class Player

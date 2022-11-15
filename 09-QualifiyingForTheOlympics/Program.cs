@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace QualifiyingForTheOlympics
 {
@@ -50,10 +46,8 @@ namespace QualifiyingForTheOlympics
 
             int[] winners = { day1Winner, day2Winner, day3Winner };
 
-            for(int i = 0; i<olympiad.Length; i++)
-            {
-                Console.WriteLine(olympiad[i][(winners[i]-1)]);
-            }
+            for (int i = 0; i < olympiad.Length; i++)
+                Console.WriteLine(olympiad[i][(winners[i] - 1)]);
         }
     }
 }

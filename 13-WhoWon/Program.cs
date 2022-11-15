@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _13_WhoWon
 {
@@ -34,8 +30,6 @@ namespace _13_WhoWon
             int winner = Convert.ToInt32(Console.ReadLine());
 
             FinalRound finalround = new FinalRound(finalists, winner);
-
-
         }
 
         class FinalRound
@@ -44,7 +38,8 @@ namespace _13_WhoWon
             {
                 Console.WriteLine("Winner is " + finalists[winner]);
             }
-            ~FinalRound(){
+            ~FinalRound()
+            {
                 Console.WriteLine("Game Over");
             }
         }

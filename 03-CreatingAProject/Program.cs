@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _03_CreatingAProject
 {
@@ -19,15 +15,11 @@ namespace _03_CreatingAProject
         static void Main(string[] args)
         {
             Project project = new Project();
-
         }
 
         class Project
         {
-            public Project()
-            {
-                Console.WriteLine("Project created");
-            }
+            public Project() => Console.WriteLine("Project created");
         }
     }
 }

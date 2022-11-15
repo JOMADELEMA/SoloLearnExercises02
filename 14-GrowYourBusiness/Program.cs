@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _14_GrowYourBusiness
 {
@@ -44,7 +40,6 @@ namespace _14_GrowYourBusiness
                 count++;
             }
             Console.WriteLine("Number of departments: " + Department.depCount);
-
         }
 
         class Department

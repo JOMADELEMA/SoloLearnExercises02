@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _17_MusicSelector
 {
@@ -44,22 +40,19 @@ namespace _17_MusicSelector
             }
 
             for(int i = 0; i < 5; i++)
-            {
-
                 Console.WriteLine("Following: " + genres[i]);
-            }
         }
 
         class MusicGenres
         {
-            private string[] genres = new string[5];
+            private string[] _genres = new string[5];
 
             public string this[int index]
             {
-                get { return genres[index]; }
+                get { return _genres[index]; }
                 set
                 {
-                    genres[index] = value;  
+                    _genres[index] = value;  
                 }
             }
         }
