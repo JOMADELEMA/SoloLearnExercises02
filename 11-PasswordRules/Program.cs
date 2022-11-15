@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _11_PasswordRules
 {
@@ -33,7 +30,7 @@ namespace _11_PasswordRules
             string password = Console.ReadLine();
             char[] notAllowedSymbols = { '!', '#', '$', '%', '&', '(', ')', '*', ',', '+', '-' };
 
-            foreach(var symbol in notAllowedSymbols)
+            foreach (var symbol in notAllowedSymbols)
             {
                 if (password.Contains(symbol))
                 {

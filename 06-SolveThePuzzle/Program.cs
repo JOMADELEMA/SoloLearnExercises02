@@ -1,14 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _06_SolveThePuzzle
 {
     internal class Program
     {
-
         /*
          * A game machine has 5 games installed on it:
          * 
@@ -33,24 +28,14 @@ namespace _06_SolveThePuzzle
 
             int userInput = Convert.ToInt32(Console.ReadLine());
 
-            //Solved with value comparison assuming no try catch possible
-            //if(userInput >4 || userInput < 0)
-            //{
-            //    Console.WriteLine("Invalid number");
-            //}
-            //else
-            //{
-            //    Console.WriteLine(games[userInput]);
-            //}
-
-            //How I would solve it
             try
             {
                 Console.WriteLine(games[userInput]);
-            } catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 Console.WriteLine("Invalid number");
             }
-        }   
+        }
     }
 }

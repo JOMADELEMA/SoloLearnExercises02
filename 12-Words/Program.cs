@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _12_Words
 {
@@ -38,7 +34,7 @@ namespace _12_Words
 
             int count = 0;
 
-            foreach(var word in words)
+            foreach (var word in words)
             {
                 if (word.Contains(letter))
                 {
@@ -46,10 +42,8 @@ namespace _12_Words
                     count++;
                 }
             }
-            if(count == 0)
-            {
+            if (count == 0)
                 Console.WriteLine("No match");
-            }
         }
     }
 }

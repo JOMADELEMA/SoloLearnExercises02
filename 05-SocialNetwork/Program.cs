@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _05_SocialNetwork
 {
@@ -44,22 +40,16 @@ namespace _05_SocialNetwork
 
         class Post
         {
-            private string text;
+            private string _text;
             public string Text
             {
-                get { return text; }
-                set { text = value; }
+                get { return _text; }
+                set { _text = value; }
             }
 
-            public Post()
-            {
-                Console.WriteLine("New post");
-            }
+            public Post() => Console.WriteLine("New post");
 
-            public void ShowPost()
-            {
-                Console.WriteLine(text);
-            }
+            public void ShowPost() => Console.WriteLine(Text);
         }
     }
 }

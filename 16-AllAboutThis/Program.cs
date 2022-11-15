@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _16_AllAboutThis
 {
@@ -34,7 +28,7 @@ namespace _16_AllAboutThis
 
             Console.WriteLine(avg.GetAvg());
         }
-        
+
         class Avg
         {
             double num1;
@@ -46,11 +40,7 @@ namespace _16_AllAboutThis
                 this.num2 = num2;
             }
 
-            public double GetAvg()
-            {
-                return(num1+ num2)/2;
-            }
-
+            public double GetAvg() => (num1 + num2) / 2;
         }
     }
 }

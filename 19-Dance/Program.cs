@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _19_Dance
 {
@@ -46,7 +42,6 @@ namespace _19_Dance
             DancerPoints total = dancer1 + dancer2;
             Console.WriteLine(total.name);
             Console.WriteLine(total.points);
-
         }
 
         class DancerPoints
@@ -59,14 +54,13 @@ namespace _19_Dance
                 this.points = points;
             }
 
-            public static DancerPoints operator+ (DancerPoints dp1, DancerPoints dp2)
+            public static DancerPoints operator +(DancerPoints dp1, DancerPoints dp2)
             {
                 string newName = dp1.name + " & " + dp2.name;
                 int pointsSum = dp1.points + dp2.points;
 
                 return new DancerPoints(newName, pointsSum);
             }
-
         }
     }
 }
